@@ -1,0 +1,63 @@
+# 🔐 Environment variables
+.env
+.env.*
+*.env
+
+# 🧪 Python cache / compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🧰 Virtual environments
+venv/
+.env/
+env/
+ENV/
+.langchainagent/
+
+# 📦 Dependency files (optional if you want to track)
+# Uncomment if needed
+# pip-log.txt
+# pip-delete-this-directory.txt
+
+# 🧾 Logs
+logs/
+*.log
+
+# 🖼️ Generated images (VERY IMPORTANT for your project)
+*.png
+*.jpg
+*.jpeg
+*.webp
+output_*.png
+
+# 📊 Temporary files
+*.tmp
+*.temp
+*.bak
+
+# 🧪 Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# 🖥️ OS files
+.DS_Store
+Thumbs.db
+
+# 🧠 IDE / Editor settings
+.vscode/
+.idea/
+
+# 🧪 Testing / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# 📦 Build / distribution
+build/
+dist/
+*.egg-info/
+
+# 🔑 Secrets / keys (extra safety)
+secrets.json
+credentials.json
